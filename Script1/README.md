@@ -1,4 +1,4 @@
-#Description
+# Simple Alarm_Clock in python
 
 The file main.py will enable the user to set a simple alarm for present day in 12-hour format.
 
