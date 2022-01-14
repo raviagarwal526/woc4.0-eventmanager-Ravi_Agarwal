@@ -25,7 +25,7 @@ with open("E:\WoC\Script2\Send_email_using_python\details.csv") as csv_file:
   for row in csv_reader:
     msg = MIMEMultipart() # create a message
     message_template = read_template('template.txt')
-    message = message_template.substitute(PERSON_NAME=row[0],MATH=row[2],ENG=row[3],SCI=row[4])
+    message = message_template.substitute(PERSON_NAME=row[0],DSA=row[2],CS=row[3],MATHS=row[4])
     print(message)
     # setup the parameters of the message
     msg['From']=MY_ADDRESS
