@@ -15,7 +15,7 @@ if int(alarm_minute)<0 or int(alarm_minute)>59:
     print('Inavlid minutes paramater')
     exit()
 
-if int(alarm_seconds)<0 or int(alarm_seconds)>66:
+if int(alarm_seconds)<0 or int(alarm_seconds)>59:
     print('Inavlid seconds paramater')
     exit()
 

@@ -3,7 +3,6 @@ import csv
 from string import Template
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from tkinter import Message
 import getpass
 
 def read_template(filename):
